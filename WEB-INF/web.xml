@@ -1,0 +1,23 @@
+<web-app>
+
+<servlet>
+    <servlet-name>SalaryInsertServlet</servlet-name>
+    <servlet-class>SalaryInsertServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>SalaryInsertServlet</servlet-name>
+    <url-pattern>/SalaryInsertServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>SalaryList</servlet-name>
+    <servlet-class>SalaryList</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>SalaryList</servlet-name>
+    <url-pattern>/SalaryList</url-pattern>
+</servlet-mapping>
+
+</web-app>

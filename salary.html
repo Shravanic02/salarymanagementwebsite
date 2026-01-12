@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salary Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Enter Salary Details</h2>
+
+<form action="SalaryInsertServlet" method="post">
+
+    Employee Name:
+    <input type="text" name="name" required><br><br>
+
+    Basic Salary:
+    <input type="number" name="basic" required><br><br>
+
+    Bonus:
+    <input type="number" name="bonus" required><br><br>
+
+    Overtime:
+    <input type="number" name="overtime" required><br><br>
+
+    Tax:
+    <input type="number" name="tax" required><br><br>
+
+    <input type="submit" value="Generate Payslip">
+
+</form>
+
+</body>
+</html>
